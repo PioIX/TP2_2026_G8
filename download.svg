@@ -1,0 +1,40 @@
+<svg width="420" height="140" viewBox="0 0 420 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"></stop>
+      <stop offset="100%" stop-color="#22D3EE"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="420" height="140" rx="18" fill="#0F172A"></rect>
+
+  <!-- CAMISETA (más realista) -->
+  <path d="
+    M110 25
+    L135 15
+    L150 35
+    L140 45
+    L140 115
+    L80 115
+    L80 45
+    L70 35
+    L85 15
+    Z" fill="url(#blue)"></path>
+
+  <!-- cuello -->
+  <path d="M100 20 Q110 35 120 20" stroke="#0F172A" stroke-width="4" fill="none" opacity="0.6"></path>
+
+  <!-- Texto -->
+  <text x="170" y="75" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#FFFFFF" letter-spacing="1">
+    Camisetas
+  </text>
+
+  <!-- 8 destacado -->
+  <text x="360" y="75" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" fill="#22D3EE">
+    8
+  </text>
+
+  <!-- línea -->
+  <rect x="170" y="88" width="170" height="4" fill="#3B82F6" rx="2"></rect>
+</svg>
